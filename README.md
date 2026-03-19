@@ -1,4 +1,4 @@
-# Omni Video Downloader + 🚀
+# Omni Video Downloader + 
 
 > **Download videos from every platform, effortlessly.**
 
