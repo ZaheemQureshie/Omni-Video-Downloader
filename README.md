@@ -4,8 +4,6 @@
 
 Omni Video Downloader + is a powerful, self-hosted, all-in-one media extraction tool. Built for the modern web, it provides a seamless and high-performance experience for downloading content from YouTube, Instagram, TikTok, Facebook, Snapchat, and over 1000+ other supported platforms—completely free and directly to your local machine.
 
-![Omni Video Downloader + Interface](https://raw.githubusercontent.com/placeholder-path/screenshot.png) *(Note: Add your own screenshot here)*
-
 ## ✨ Key Features
 
 - **Multi-Platform Support**: YouTube (Shorts, Playlists), Instagram (Reels), TikTok (Slideshows), Facebook, Snapchat, and more.
@@ -59,5 +57,3 @@ The application follows a modern decoupled architecture:
 ## 📜 License
 This project is for educational purposes only. Please respect the terms of service of the platforms you download from.
 
----
-Built with ❤️ for the open-web community.
