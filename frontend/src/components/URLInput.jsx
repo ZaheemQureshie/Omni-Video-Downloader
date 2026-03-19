@@ -21,9 +21,7 @@ export default function URLInput({ onSubmit, loading, platformColor = 'indigo', 
       const text = await navigator.clipboard.readText();
       setUrl(text);
       inputRef.current?.focus();
-    } catch {
-      // Clipboard access denied
-    }
+    } catch {}
   };
 
   const handleSubmit = (e) => {
@@ -63,7 +61,6 @@ export default function URLInput({ onSubmit, loading, platformColor = 'indigo', 
             type="button"
             onClick={handlePaste}
             className="p-2 rounded-lg hover:bg-white/10 transition text-gray-400 hover:text-white"
-            title="Paste from clipboard"
           >
             <Clipboard className="w-4 h-4" />
           </button>
@@ -78,15 +75,9 @@ export default function URLInput({ onSubmit, loading, platformColor = 'indigo', 
             transition shadow-lg btn-glow min-w-[160px]`}
         >
           {loading ? (
-            <>
-              <Loader2 className="w-4 h-4 animate-spin" />
-              Fetching...
-            </>
+            <><Loader2 className="w-4 h-4 animate-spin" /> Fetching...</>
           ) : (
-            <>
-              <Search className="w-4 h-4" />
-              Fetch Video Info
-            </>
+            <><Search className="w-4 h-4" /> Fetch Video Info</>
           )}
         </motion.button>
       </div>
